@@ -173,8 +173,9 @@ student, course, professor 개체집합의 개체관계
 
 ![student-course-professor](https://user-images.githubusercontent.com/31890257/47815397-9edcc680-dd93-11e8-8d13-c6a8c644d951.jpg)
 
-이진관계로 표현된 ERD
 
+
+이진관계로 표현된 ERD
 ![birelation(student-course-professor)](https://user-images.githubusercontent.com/31890257/47815398-9f755d00-dd93-11e8-9ac9-209033a3bac7.jpg)
 
 ## 자기연관관계 ERD
