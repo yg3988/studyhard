@@ -117,7 +117,8 @@ NULL : 특정 필드에 대한 값을 알지 못하거나 아직 정해지지 �
 
 >예시  
 >σ<sub>address = '서울'</sub>(student)
->student테이블에서 address가 '서울'인 레코드를 검색
+
+steudent테이블에서 address가 '서울'인 레코드를 검색
 
 
 ## 선택 연산에서 널을 처리
@@ -142,7 +143,6 @@ student 테이블에서 stu_id와 name만을 추출
 
 관계 대수 연산자들은 상호 중첩하여 사용 가능
 
->2000년 이후에 임용된 '부교수'들의 레코드를 검색
 >σ<sub>position = '부교수'</sub>(σ<sub>year_emp>= 2000</sub>(professor))
 
 2000년 이후에 임용된 '부교수'들의 레코드를 검색
@@ -155,22 +155,22 @@ student 테이블에서 stu_id와 name만을 추출
 
 추출 연산에 대해서 다음의 두 질의는 동일한 결과
 
->π<sub>name, position</sub>(π<sub>prof_id, position</sub>(professor))
+>π<sub>name, position</sub>(π<sub>prof_id, position</sub>(professor))  
 >π<sub>name, position</sub>(professor)
 
 다음은 잘못된 질의임
 
->π<sub>prof_id, name, position</sub>(π<sub>name, position</sub>(professor))
+>π<sub>prof_id, name, position</sub>(π<sub>name, position</sub>(professor))  
 >π<sub>name, position</sub>(professor)의 결과에 prof_id를 포함하고 있지 않기 때문에
 
-><필드리스트1>⊂<필드리스트2>
+><필드리스트1>⊂<필드리스트2>  
 >π<sub><필드리스트1></sub>(π<sub><필드리스트2></sub>(<테이블이름>)) ≡ π<sub><필드리스트1></sub>(<테이블이름>)
 
 일반적으로 선택과 추출 연산의 조합으로 질의를 표현
 
 >π<sub>name</sub>(σ<sub><year_emp>= 2000 ∧ position = '부교수'></sub>(<테이블이름>))
 
-##재명명 연산
+## 재명명 연산
 
 테이블에 이름을 부여하거나 변경하는 연산
 
