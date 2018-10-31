@@ -29,25 +29,25 @@ DML : 데이터 조작 언어(Data Manipulation legal Language)
 
 필드의 Data type 종류
 
-![DataType](../.src/DBtype.jpg)
+![DataType](https://user-images.githubusercontent.com/31890257/47813806-663aee00-dd8f-11e8-892a-0478472cee66.jpg)
 ## 테이블 생성
 
 형식
 > create table <테이블이름> (<필드리스트>)
   - <필드리스트>는 '필드명 데이터타입'
 
-![create1](../.src/createTable1.jpg)
+![create1](https://user-images.githubusercontent.com/31890257/47813807-663aee00-dd8f-11e8-8a32-24d52ebd35e9.jpg)
 
 키워드 not null은 해당 필드에 널을 허용하지 않는다는 것을 의미한다.
 
 ## 기본키, 외래키 설정
 테이블을 생성할 기본키 역할을 하는 필드를 지정
-![create2](../.src/createTable2.jpg)
+![create2](https://user-images.githubusercontent.com/31890257/47813808-66d38480-dd8f-11e8-8ad9-b31798429ecc.jpg)
 pk_department : 제약식의 이름
   - 제약식 : 테이블에 부적절한 자료가 입력되는 것을 방지하기 위해서 여러 가지 규칙을 적용해 놓은 것
 not null이 정의 되어있지 않아도 제약식에 의해 not null로 정의됨
 
-![create3](../.src/createTable3.jpg)
+![create3](https://user-images.githubusercontent.com/31890257/47813809-66d38480-dd8f-11e8-8806-76ad907f5b0a.jpg)
 외래키까지 포함된 테이블 생성의 예
 
 > foreign key(dept_id) references department(dept_id)
