@@ -156,26 +156,26 @@ class 개체 집합의 속성 : class(year, semester, division, classroom, enrol
 
 ## 개체관계 다이어그램
 
-![ERDelemental](../.src/erdimage.jpg)
+![ERDelemental](https://user-images.githubusercontent.com/31890257/47815399-9f755d00-dd93-11e8-8a45-a83e18307ba8.jpg)
 
 ## ERD의 예
 
 student와 department의 ERD
 
-![student-dept](../.src/erdef1.jpg)
+![student-dept](https://user-images.githubusercontent.com/31890257/47815395-9edcc680-dd93-11e8-91f8-6d7d8ef5023e.jpg)
 
 course와 class의 ERD(약성 개체 집합의 표현)
-![course-class, weak](../.src/erdef2.jpg)
+![course-class, weak](https://user-images.githubusercontent.com/31890257/47815396-9edcc680-dd93-11e8-85bc-89d3eaf457ec.jpg)
 
 ## 삼진관계 ERD
 
 student, course, professor 개체집합의 개체관계
 
-![student-course-professor](../.src/erdef3.jpg)
+![student-course-professor](https://user-images.githubusercontent.com/31890257/47815397-9edcc680-dd93-11e8-8d13-c6a8c644d951.jpg)
 
 이진관계로 표현된 ERD
 
-![birelation(student-course-professor)](../.src/erdef4.jpg)
+![birelation(student-course-professor)](https://user-images.githubusercontent.com/31890257/47815398-9f755d00-dd93-11e8-9ac9-209033a3bac7.jpg)
 
 ## 자기연관관계 ERD
 
@@ -184,7 +184,7 @@ student, course, professor 개체집합의 개체관계
 - 상관도 직원 개체집합에 속함
 - 각 상관은 여러 명의 직원을 관리
 
-![self-relation](../.src/erdselfref.jpg)
+![self-relation](https://user-images.githubusercontent.com/31890257/47815400-9f755d00-dd93-11e8-89f9-9b34e2a82ea3.jpg)
 
 역할
 - 각 객체의 역할에 따라 대응수가 다름
@@ -194,7 +194,7 @@ student, course, professor 개체집합의 개체관계
 - 한 교과목은 여러 개의 후수 교과목을 가짐
 - 다대다 자기연관관계
 
-![self-relation2](../.src/erdselfref2.jpg)
+![self-relation2](https://user-images.githubusercontent.com/31890257/47815401-a00df380-dd93-11e8-8a30-0dd829cb3817.jpg)
 
 ## 개념적 설계 순서
 
